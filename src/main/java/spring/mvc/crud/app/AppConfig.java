@@ -10,11 +10,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
-/**
- * Application Configuration for Simple Spring MVC CRUD App
- * 
- * @author Mandar Pandit
- */
+
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = "spring.mvc.crud.app")

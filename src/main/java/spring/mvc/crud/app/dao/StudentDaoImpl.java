@@ -8,11 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import spring.mvc.crud.app.model.Student;
 
-/**
- * Student Dao Implementation for Simple Spring MVC CRUD App
- * 
- * @author Mandar Pandit
- */
+
 @Repository("studentDao")
 @Transactional
 public class StudentDaoImpl extends AbstractDao<Long, Student> implements StudentDao {

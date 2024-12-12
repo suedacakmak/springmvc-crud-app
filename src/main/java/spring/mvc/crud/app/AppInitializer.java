@@ -8,11 +8,7 @@ import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
-/**
- * Application Initializer for Simple Spring MVC CRUD App
- * 
- * @author Mandar Pandit
- */
+
 public class AppInitializer implements WebApplicationInitializer {
 
 	@Override

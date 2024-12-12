@@ -27,9 +27,7 @@ public class AppController {
 	@Autowired
 	MessageSource messageSource;
 
-	/**
-	 * This Method will list All existing Students
-	 */
+
 	@RequestMapping(value = { "/", "/list" }, method = RequestMethod.GET)
 	public ModelAndView welcome(ModelMap model) {
 		ModelAndView mv = new ModelAndView();
@@ -39,9 +37,7 @@ public class AppController {
 		return mv;
 	}
 
-	/**
-	 * This Method will provide way to Add New Student
-	 */
+
 	@RequestMapping(value = { "/new" }, method = RequestMethod.GET)
 	public String newStudentForm(ModelMap model) {
 		Student newStudent = new Student();
@@ -69,8 +65,6 @@ public class AppController {
 	}
 
 	/**
-	 * This Method will provide the way to update an existing Student
-	 * 
 	 * @param id
 	 * @param model
 	 * @return
@@ -84,9 +78,6 @@ public class AppController {
 	}
 
 	/**
-	 * This method will be called on form submission, handling POST request for
-	 * updating Student in database. It also validates the user input
-	 * 
 	 * @param Student
 	 * @param result
 	 * @param model
@@ -114,8 +105,6 @@ public class AppController {
 	}
 
 	/**
-	 * This method will Delete a Student by Id
-	 * 
 	 * @param id
 	 * @return
 	 */

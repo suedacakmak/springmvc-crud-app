@@ -5,9 +5,7 @@ import java.util.List;
 import spring.mvc.crud.app.model.Student;
 
 /**
- * Student Service Interface for Simple Spring MVC CRUD App
- * 
- * @author Mandar Pandit
+ * Student Service Interface
  */
 public interface StudentService {
 

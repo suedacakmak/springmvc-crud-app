@@ -4,11 +4,7 @@ import java.util.List;
 
 import spring.mvc.crud.app.model.Student;
 
-/**
- * Student Dao Interface for Simple Spring MVC CRUD App
- * 
- * @author Mandar Pandit
- */
+
 public interface StudentDao {
 
 	Student getStudent(Long id);
